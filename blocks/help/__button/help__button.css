@@ -1,0 +1,12 @@
+.help__button {
+    width: 145px;
+    height: 45px;
+    background-color: #BAE249;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.help__button:hover {
+    background-color: #91AC46;
+}

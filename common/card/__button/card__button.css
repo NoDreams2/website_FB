@@ -1,0 +1,13 @@
+.card__button {
+    margin-bottom: 0;
+    background-color: transparent;
+    border: 1px solid #BAE249;
+    cursor: pointer;
+    width: 145px;
+    height: 45px;
+    transition: background-color 0.2s ease, color 0.8s ease;
+}
+
+.card__button:hover {
+    background-color: #BAE249;
+}

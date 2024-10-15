@@ -1,0 +1,9 @@
+.help__container {
+    box-sizing: border-box;
+    max-width: 1174px;
+    padding-block: 60px;
+    padding-inline: 32px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,15 @@
+.help {
+    background-image: url("../../images/help.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+
+.help::before {
+    content: "";
+    position: absolute; 
+    inset: 0;
+    background-color: rgba(0, 30, 30, 0.6); 
+    z-index: 1; 
+}

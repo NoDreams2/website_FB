@@ -1,0 +1,106 @@
+@import url('../common/global/normalize.css');
+
+@import url('../fonts/fonts.css');
+
+@import url('../common/body/body.css');
+
+@import url('../blocks/header/__container/header__container.css');
+
+@import url('../blocks/header/__container-logo-list/header__container-logo-list.css');
+
+@import url('../blocks/header/__list/header__list.css');
+
+@import url('../blocks/header/__link/header__link.css');
+
+@import url('../blocks/header/__link/_color/header__link_color.css');
+
+@import url('../blocks/header/__magnifier-enter/header__magnifier-enter.css');
+
+@import url('../blocks/header/__icon/_color/header__icon_color.css');
+
+
+@import url('../blocks/welcome/__link/welcome__link.css');
+
+@import url('../blocks/welcome/__img/welcome__img.css');
+
+@import url('../blocks/welcome/welcome.css');
+
+@import url('../blocks/welcome/__container/welcome__container.css');
+
+@import url('../blocks/welcome/__title/welcome__title.css');
+
+@import url('../blocks/welcome/__desc/welcome__desc.css');
+
+
+@import url('../common/card/__list-switcing/card__list-switcing.css');
+
+@import url('../common/card/__list/card__list.css');
+
+@import url('../common/card/__item/card__item.css');
+
+@import url('../common/card/__image/card__image.css');
+
+@import url('../common/card/__image-number/card__image-number.css');
+
+@import url('../common/card/__content/card__content.css');
+
+@import url('../common/card/__title/card__title.css');
+
+@import url('../common/card/__desc/card__desc.css');
+
+@import url('../common/card/__desc/_margin/card__desc_margin.css');
+
+@import url('../common/card/__button/card__button.css');
+
+@import url('../common/card/__button-link/card__button-link.css');
+
+@import url('../common/card/__image-visually/_margin/card__image-visually_margin.css');
+
+@import url('../blocks/card/__switcing/card__switcing.css');
+
+@import url('../blocks/card/__button-text/card__button-text.css');
+
+@import url('../blocks/card/__button-icon/card__button-icon.css');
+
+
+@import url('../blocks/new-artifacts/__container/new-artifacts__container.css');
+
+@import url('../blocks/new-artifacts/__title/new-artifacts__title.css');
+
+@import url('../blocks/new-artifacts/__image-text/new-artifacts__image-text.css');
+
+@import url('../blocks/new-artifacts/__text/new-artifacts__text.css');
+
+@import url('../blocks/new-artifacts/__text-title/new-artifacts__text-title.css');
+
+@import url('../blocks/new-artifacts/__text-descriptions/new-artifacts__text-descriptions.css');
+
+@import url('../blocks/new-artifacts/__text-description/new-artifacts__text-description.css');
+
+@import url('../blocks/new-artifacts/__link/new-artifacts__link.css');
+
+@import url('../blocks/new-artifacts/__link-text/new-artifacts__link-text.css');
+
+
+@import url('../blocks/help/help.css');
+
+@import url('../blocks/help/__container/help__container.css');
+
+@import url('../blocks/help/__title/help__title.css');
+
+@import url('../blocks/help/__desc/help__desc.css');
+
+@import url('../blocks/help/__input/help__input.css');
+
+@import url('../blocks/help/__button/help__button.css');
+
+@import url('../blocks/help/__link/help__link.css');
+
+
+@import url('../blocks/footer/__top/footer__top.css');
+
+@import url('../blocks/footer/__list/footer__list.css');
+
+@import url('../blocks/footer/__svg/footer__svg.css');
+
+@import url('../blocks/footer/__copyright/footer__copyright.css');

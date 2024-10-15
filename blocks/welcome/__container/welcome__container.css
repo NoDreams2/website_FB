@@ -1,0 +1,8 @@
+.welcome__container {
+    box-sizing: border-box;
+    max-width: 1174px;
+    position: relative;
+    padding: 113px 32px 117px 32px;
+    margin: 0 auto;
+    z-index: 2;
+}

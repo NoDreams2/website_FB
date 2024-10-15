@@ -1,0 +1,9 @@
+.welcome__title {
+    max-width: 688px;
+    font-family: "Cormorant";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 60px;
+    margin: 0 0 16px 0;
+    color: #FFFFFF;
+}

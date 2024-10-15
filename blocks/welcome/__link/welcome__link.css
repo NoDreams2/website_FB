@@ -1,0 +1,14 @@
+.welcome__link {
+    max-width: 160px;
+    font-weight: 700;
+    color: #BAE249;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.welcome__link:hover {
+    color: #91AC46;
+}

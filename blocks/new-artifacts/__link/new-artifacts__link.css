@@ -1,0 +1,13 @@
+.new-artifacts__link {
+    min-width: 166px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    text-decoration: none;
+    color: #0B1919;
+    transition: color 0.2s;
+}
+
+.new-artifacts__link:hover {
+    color: #688B05;
+}

@@ -1,0 +1,4 @@
+.header__container-logo-list {
+    display: flex;
+    gap: 125px;
+}

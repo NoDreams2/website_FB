@@ -1,0 +1,5 @@
+.card__item {
+    max-width: 255px;
+    min-height: 493px;
+    border: 1px solid #0B1919;
+}

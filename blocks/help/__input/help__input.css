@@ -1,0 +1,32 @@
+.help__input {
+    padding: 12.9px 170px 12.9px 16px;
+    margin-bottom: 24px;
+    background-color: #fff;
+    border: none;
+    transition: background-color 0.3s;
+    outline: inherit;
+    font-size: 16px;
+}
+
+.help__input::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #899D9D;
+    transition: color 0.3s;
+    padding-left: 3px;
+}
+
+.help__input:hover::placeholder{
+    color: #fff;
+}
+
+.help__input:fosuc::placeholder{
+    outline: 1px solid #83A440;
+}
+
+.help__input:hover {
+    background-color: #899D9D;
+    border: 1px solid #fff;
+}
+

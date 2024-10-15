@@ -1,0 +1,8 @@
+.footer__svg {
+    color: #899D9D;
+    transition: color 0.2s;
+}
+
+.footer__svg:hover {
+    color: #BAE249;
+}

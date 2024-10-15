@@ -1,0 +1,9 @@
+.card__list {
+    box-sizing: border-box;
+    max-width: 1110px;
+    display: flex;
+    gap: 30px;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}

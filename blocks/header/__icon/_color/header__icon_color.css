@@ -1,0 +1,8 @@
+.header__icon_color {
+    color: #BAE249;
+    transition: color 0.2s;
+}
+
+.header__icon_color:hover {
+    color: #688B05;
+}
