@@ -3,3 +3,15 @@
     min-height: 493px;
     border: 1px solid #0B1919;
 }
+
+@media (max-width: 1024px) {
+    .card__item {
+        max-width: 200px;
+        min-height: 100px;
+    }
+}
+
+@media (max-width: 426px) {
+    .card__list {
+    }
+}

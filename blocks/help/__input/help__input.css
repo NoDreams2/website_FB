@@ -1,5 +1,5 @@
 .help__input {
-    padding: 12.9px 170px 12.9px 16px;
+    padding: 12.9px 150px 12.9px 16px;
     margin-bottom: 24px;
     background-color: #fff;
     border: none;
@@ -28,5 +28,11 @@
 .help__input:hover {
     background-color: #899D9D;
     border: 1px solid #fff;
+}
+
+@media (max-width: 376px) {
+    .help__input {
+        padding: 5px 60px 5px 10px;
+    }
 }
 

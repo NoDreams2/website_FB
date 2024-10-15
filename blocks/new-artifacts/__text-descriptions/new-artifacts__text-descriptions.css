@@ -2,5 +2,29 @@
     display: flex;
     flex-direction: column;
     gap: 25px;
-    margin-bottom: 75px;
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1024px) {
+    .new-artifacts__text-descriptions {
+        margin: 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display: block;
+        width: 100%;
+        margin-bottom: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    .new-artifacts__text-descriptions {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 376px) {
+    .new-artifacts__text-descriptions {
+        display: none;
+    }
 }

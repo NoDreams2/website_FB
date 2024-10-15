@@ -1,4 +1,25 @@
 .new-artifacts__text {
+    max-height: 493px;
+    max-width: 222px;
     background-color: #BAE249;
     padding: 16px 16px 24px 16px;
+}
+
+@media (max-width: 1024px) {
+    .new-artifacts__text {
+        width: 200px;
+        height: 310px;
+    }
+}
+
+@media (max-width: 768px) {
+    .new-artifacts__text {
+        height: 210px;
+    }
+}
+
+@media (max-width: 376px) {
+    .new-artifacts__text {
+        height: 70px;
+    }
 }

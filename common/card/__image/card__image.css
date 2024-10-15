@@ -1,4 +1,7 @@
 .card__image {
+    box-sizing: border-box;
     background-color: #0B1919;
     padding: 28px 16px;
+    max-height: 180px;
+    position: relative;
 }

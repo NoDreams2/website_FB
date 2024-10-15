@@ -1,0 +1,6 @@
+@media (max-width: 1024px) {
+    .card__image-visually {
+        width: 150px;
+        height: 80px;
+    }
+}

@@ -11,3 +11,10 @@
 .card__button:hover {
     background-color: #BAE249;
 }
+
+@media (max-width: 1024px) {
+    .card__button {
+        width: 100%;
+        height: 100%;
+    }
+}

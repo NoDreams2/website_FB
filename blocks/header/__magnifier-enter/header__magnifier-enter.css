@@ -1,4 +1,16 @@
 .header__magnifier-enter {
-    display: flex;
-    gap: 64px;
+  display: flex;
+  gap: 64px;
+}
+
+@media (max-width: 1024px) {
+  .header__list {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 426px) {
+    .header__list {
+      display: none;
+    }
 }

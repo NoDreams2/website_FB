@@ -2,7 +2,19 @@
     box-sizing: border-box;
     max-width: 1174px;
     position: relative;
-    padding: 113px 32px 117px 32px;
+    padding: 115px 32px 115px 32px;
     margin: 0 auto;
     z-index: 2;
+}
+
+@media (max-width: 425px) {
+    .welcome__container {
+      padding: 50px 16px;
+    }
+}
+
+@media (max-width: 376px) {
+    .welcome__container {
+      text-align: center;
+    }
 }

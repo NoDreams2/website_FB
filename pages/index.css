@@ -18,6 +18,8 @@
 
 @import url('../blocks/header/__icon/_color/header__icon_color.css');
 
+@import url('../blocks/header/__list/_imposter/header__list_imposter.css');
+
 
 @import url('../blocks/welcome/__link/welcome__link.css');
 
@@ -52,7 +54,13 @@
 
 @import url('../common/card/__button/card__button.css');
 
+@import url('../common/card/__button-icon/card__button-icon.css');
+
 @import url('../common/card/__button-link/card__button-link.css');
+
+@import url('../common/card/__image-visually/card__image-visually.css');
+
+@import url('../common/card/__switcing/card__switcing.css');
 
 @import url('../common/card/__image-visually/_margin/card__image-visually_margin.css');
 
@@ -63,9 +71,12 @@
 @import url('../blocks/card/__button-icon/card__button-icon.css');
 
 
+
 @import url('../blocks/new-artifacts/__container/new-artifacts__container.css');
 
 @import url('../blocks/new-artifacts/__title/new-artifacts__title.css');
+
+@import url('../blocks/new-artifacts/__image/new-artifacts__image.css');
 
 @import url('../blocks/new-artifacts/__image-text/new-artifacts__image-text.css');
 
@@ -104,3 +115,4 @@
 @import url('../blocks/footer/__svg/footer__svg.css');
 
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+

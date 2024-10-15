@@ -1,9 +1,16 @@
 .header__container {
-    box-sizing: border-box;
-    max-width: 1174px;
-    margin: 0 auto;
-    padding: 18px 32px;
+  box-sizing: border-box;
+  max-width: 1174px;
+  margin: 0 auto -3px auto;
+  padding: 18px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 425px) {
+  .header__container {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    flex-direction: column;
+  }
 }

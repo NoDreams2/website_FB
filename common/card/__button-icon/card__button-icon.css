@@ -1,0 +1,21 @@
+.card__button-icon {
+    color: #899D9D;
+    transition: color, transform 0.3s;
+}
+
+.card__button-icon:hover {
+    transform: scale(1.2);
+    color: #BAE249;
+}
+
+/* Стили для неактивного состояния */
+.card__button-icon.disabled {
+    pointer-events: none; /* Запретить любое взаимодействие */
+    opacity: 0.5; /* Сделать кнопку выглядящей отключенной */
+}
+
+/* Убрать эффекты наведения для неактивных кнопок */
+.card__button-icon.disabled:hover {
+    transform: none; /* Нет увеличения */
+    color: inherit; /* Нет изменения цвета */
+}

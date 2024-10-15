@@ -1,9 +1,35 @@
 .card__list {
     box-sizing: border-box;
-    max-width: 1110px;
+    max-width: 1100px;
     display: flex;
     gap: 30px;
     list-style: none;
     margin: 0 auto;
     padding: 0;
+    overflow-x: scroll;
 }
+
+.card__list::-webkit-scrollbar {
+    display: none;
+}
+
+@media (max-width: 1024px) {
+    .card__list {
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card__list {
+        max-width: 665px;
+    }
+}
+
+@media (max-width: 426px) {
+    .card__list {
+        margin: 0;
+        padding: 0 10px;
+        max-width: 220px;
+    }
+}
+
